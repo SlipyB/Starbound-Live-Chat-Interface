@@ -1,0 +1,11 @@
+{
+  "version" : "1.0",
+  "author" : "Rhaeloth",
+  "tags" : "Miscellaneous",
+  "description" : "You want speak the Ancient language? This mod allow to translate your message into Ancient language.\n\n\n[h1][b]Informations:[/b][/h1]\nYou [b]must[/b] have [url=http://steamcommunity.com/sharedfiles/filedetails/?id=1088459034]Quickbar Mini[/url] (or [url=https://steamcommunity.com/sharedfiles/filedetails/?id=764887546]StardustLib[/url]) in order to use this mod!\nIf you want read ancient alphabet, use [url=http://steamcommunity.com/sharedfiles/filedetails/?id=824556813]Ancient Text Translator[/url] or [url=http://steamcommunity.com/sharedfiles/filedetails/?id=815809684]Ancient Rune translator[/url].\nThis mod is multiplayer compatible.\n\n[h1][b]How to send translated message?[/b][/h1]\nStarbound can't copy a text and send it with a simple button, but it allow copy/paste with keyboard shortcuts.\nTo copy your translated text, click on the second text box and use [b]CTRL+A[/b] then [b]CTRL+X[/b] to get all text. Now hit the Delete button and you will be able to open your chat and paste your translated text with [b]CTRL+V[/b].",
+  "name" : "Translate To Ancient Language",
+  "friendlyName" : "Translate to Ancient language",
+  "steamContentId" : "1115235330",
+  "link" : "steam://url/CommunityFilePage/1115235330",
+  "includes" : ["QuickbarMini", "StardustLib"]
+}

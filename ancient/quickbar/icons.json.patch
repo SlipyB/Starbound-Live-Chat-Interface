@@ -1,0 +1,11 @@
+[
+  {
+    "op": "add",
+    "path": "/normal/-",
+    "value": {
+      "label": "Test Stuff?",
+      "scriptAction": "tradAncien:openInterface",
+      "icon": "/interface/tradAncienmod/testicon.png"
+    }
+  }
+]
