@@ -31,11 +31,11 @@ function update()
         for i = 1, message:len() do
             local shiftAmount = colorTextShift * i + colorTimeShift * counter
             endText = endText .. "^#"
-            endText = endText .. color.hueshiftHex("ff8080",shiftAmount / 360) -- to convert from degrees to percentage
+            endText = endText .. color.hueshiftHex("ff8080",shiftAmount / 360) -- Does the hueshift color rotation stuff remove this and the line under and set the one above to be a solid colo
             endText = endText .. ";"
             endText = endText .. message:sub(i,i)
         end
-        star.player.addChatMessage("^#800080;[Dark Matter]:^reset; "..endText)
+        star.player.addChatMessage(endText)
     end
 
     message = widget.getText("textboxMessage")
