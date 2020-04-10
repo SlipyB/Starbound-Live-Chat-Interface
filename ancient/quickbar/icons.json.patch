@@ -3,7 +3,7 @@
     "op": "add",
     "path": "/normal/-",
     "value": {
-      "label": "Test Stuff?",
+      "label": "Live Chat",
       "scriptAction": "tradAncien:openInterface",
       "icon": "/interface/tradAncienmod/testicon.png"
     }
