@@ -10,6 +10,7 @@ counter = 0
 
 function init()
     message = ""
+    name = world.entityName(player.id())
 end
 
 function update()
@@ -35,7 +36,7 @@ function update()
             endText = endText .. ";"
             endText = endText .. message:sub(i,i)
         end
-        star.player.addChatMessage(endText)
+        star.player.addChatMessage("["..name.."^reset;]: "..endText)
     end
 
     message = widget.getText("textboxMessage")
@@ -47,9 +48,4 @@ end
 
 function type()
     
-end
-
-function enter()
-    message = ""
-    widget.setText("textboxMessage","")
 end
