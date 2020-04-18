@@ -7,3 +7,14 @@ Top Right Button: Basic mode (General Grammar Correction)
 Botton button: Edgelord mode (Makes you talk like an edgy boi)
 
 Purrr's dll: https://github.com/TheFurryDevil/HasiBoundLite
+
+
+
+
+
+
+
+
+
+
+Also Inferion basically made this 
